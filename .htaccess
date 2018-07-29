@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule ^elg$ index.php
+RewriteRule ^news-category/([0-9]+)/?$ news-category.php?cat_id=$1
+RewriteRule ^single-news/([0-9]+)/?$ single-news.php?newsid=$1
+RewriteRule ^epaper/([0-9]+)/?$ single-epaper.php?eid=$1
+
+RewriteRule ^latest-news/$ latest-news.php
+RewriteRule ^latest-news/page/([0-9]+)/?$ latest-news.php?page=$1
+RewriteRule ^epaper/$ epaper.php
+RewriteRule ^news-category/$ news-category.php

@@ -1,0 +1,94 @@
+/* ========= News Backend Styling Start From Here =============== */
+#newscontainer table tr td input, #addnewscontainer table tr td select,#addnewscontainer table tr td textarea{
+	width: 800px;
+	padding: 5px;
+}
+
+#newscontainer table tr{
+	margin-bottom: 20px;
+}
+
+#newscontainer table tr td{
+	vertical-align: top;
+}
+
+.editme{
+	min-height: 300px;
+}
+.browseupload{
+	background-color: #d61d00;
+	color: #fff;
+	padding: 5px;
+	display: inline-block;
+	cursor: pointer;
+	border-radius:3px;
+}
+
+.browseupload a{
+	color: #fff !important;
+}
+
+.fileupload{
+	font-size: 5px;
+    margin-top: -48px;
+    opacity: 0;
+}
+
+#preview{
+	width: 20%;
+}
+
+.alert{
+	padding: 5px;
+	color: #000;
+	display: inline-block;
+}
+
+.success{
+	background-color: #caffc5;
+	border:1px solid #8aea80;
+}
+
+.erro{
+	background-color: #ffc5c5;
+	border:1px solid #ea8080;
+}
+
+#viewnewscontainer table tr td{
+	align: left;
+	font-size: 12px;
+}
+
+.pagination_box a{
+	background:#eee;
+    padding: 5px 12px;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.indicate{
+	font-size: 12px;
+	color: #ccc;
+}
+
+.epaper-img{
+	width: 150px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+/*#newsCategory{
+	height: 100px;
+	overflow: auto;
+}
+
+#newsCategory p{
+	margin: 0px;
+	padding: 0px;
+}
+
+#newsCategory input{
+	width: 100px !important;
+}*/
